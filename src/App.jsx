@@ -89,10 +89,10 @@ const App = () => {
       <h1 className="text-[2rem] sm:text-[4rem] text-white text-center p-5 text-2xl capitalize font-bold tracking-wider">
         Hicham Friv{" "}
       </h1>
-      <section className="rounded-lg mb-5 bg-yellow-500 min-h-[300px] w-[60%] grid grid-cols-3 sm:grid-cols-4 gap-1 mx-auto   px-2 py-2">
+      <section className="rounded-lg mb-5 bg-yellow-500 min-h-[300px] w-[60%] grid grid-cols-3 sm:grid-cols-4 gap-1 mx-auto place-content-between place-items-center   px-2 py-2">
         {images.map((img) => {
           return (
-            <div className="flex justify-center items-center   ">
+            <div className="flex justify-center items-center    w-[60px] h-[60px]">
               <img
                 key={img.id}
                 className={`im h-full w-full rounded-lg cursor-pointer border ${
