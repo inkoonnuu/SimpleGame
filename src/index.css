@@ -1,0 +1,38 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+    user-select: none;
+
+}
+.img{
+    animation: img 1s  linear forwards;
+    
+}
+body{
+    height: 100vh;
+    background: linear-gradient(to right top,rgb(238, 0, 255),cyan);
+}
+.im{
+      filter: brightness(0%);
+  
+}
+
+@keyframes img{
+    0%{
+        transform: rotatey(0deg);
+
+    }
+    50%{
+        filter: brightness(0%);
+
+    }
+
+    100%{
+        transform: rotatey(180deg);
+        filter: brightness(100%);
+
+
+    }
+}
